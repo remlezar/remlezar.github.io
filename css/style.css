@@ -1,0 +1,120 @@
+* {
+	box-sizing: border-box;
+}
+
+.banner h1 {
+	background-color: red;
+}
+
+.banner2 h1 {
+	margin: 0;
+	text-align: center;
+}
+
+.banner h2 {
+	margin: 0;
+	text-align: center;
+}
+
+.secondary-menu ul {
+	display: flex;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	background-color: red;
+}
+
+.secondary-menu a {
+	display: grid;
+	padding: 0.5em 0.5em;
+}
+
+.primary-menu ul {
+	list-style-type: none;
+	 display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.access {
+	text-align: center;
+}
+
+
+.diary {
+	border-collapse: collapse;
+	}
+	
+.diary th {
+background-color: red;
+}
+
+.diary, .diary td, .diary th {
+border: 1px solid #000;
+}
+	
+	.diary td {
+padding: 6px;
+}	
+
+
+a:link {
+color: black;
+}
+
+a:visited {
+	color: black;
+}
+
+a:hover {
+	color: black;
+}
+
+a:active {
+	color: black;
+}
+
+.face {
+	 display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.site-footer {
+	padding: 2em;
+	background-color: red;
+	border-bottom: 1px solid;
+}
+
+
+@media (min-width: 768px) {
+
+body {
+	font-size: 100%;
+}
+
+.content-wrapper {
+	overflow: hidden;
+	max-width: 5000px;
+	margin: 0 auto;
+}
+
+main {
+	float: left;
+	width: 60%;
+}
+
+
+.sidebar {
+	float: right;
+	width: 40%;
+}
+
+.site-footer {
+	clear: both;
+}
+
+}
+	
